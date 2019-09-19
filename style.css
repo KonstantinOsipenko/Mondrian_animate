@@ -6,8 +6,8 @@ body{
 	box-sizing: border-box;
 	font-size: 0;
 	position: relative;
-/* 	max-width: 500px; */
-/* 	height: 480px; */
+ 	max-width: 500px;
+ 	height: 480px;
 }
 .container:hover{
 	background: white;
