@@ -1,0 +1,364 @@
+body{
+	margin: 0;
+	overflow-y: hidden;
+}
+.container{
+	box-sizing: border-box;
+	font-size: 0;
+	position: relative;
+	max-width: 500px;
+	height: 480px;
+}
+.container:hover{
+	background: white;
+}
+.block{
+	position: absolute;
+	box-sizing: border-box;
+	top: 50px;
+	left: 50px;
+	background:rgb(114, 0, 156);
+	width: 0;
+	height: 0;
+	transform: scale(-1);
+	transform: scaleY(-20deg);
+	transform: rotate(720deg);
+	transition: 4s;
+	opacity: 0;
+}
+.container:hover .block{
+	transform: scale(1);
+	transform: scaleY(0deg);
+	transform: rotate(0deg);
+	opacity: 1;
+}
+.container:hover .h30_white{
+	width: 10px;
+	height: 30px;
+	background: white;
+	border: solid 1px black;
+	top: 0;
+	left: 0;
+}
+.container:hover .h60w10_black{
+	width: 10px;
+	height: 60px;
+	background: black;
+	border: solid 1px black;
+	left: 0;
+	top: 30px;
+}
+.container:hover .h30w10_white{
+	width: 10px;
+	height: 30px;
+	background: white;
+	border: solid 1px black;
+	left: 0;
+	top: 90px;
+	border-bottom: none;
+	border-top: none;
+}
+.container:hover .h10w40_white{
+	height: 10px;
+    width: 40px;
+    background: white;
+    border: solid 1px black;
+    left: 0;
+    top: 120px;
+}
+.container:hover .w65h15_white{
+	width: 65px;
+	height: 15px;
+	background: white;
+	border: solid 1px black;
+	top: 0;
+	left: 10px;
+	border-left: none;
+}
+.container:hover .w65h15_blue{
+	width: 65px;
+	height: 15px;
+	background: blue;
+	border: solid 1px black;
+	top: 15px;
+	left: 10px;
+	border-top: none;
+	border-left: none;
+}
+.container:hover .h60w20_white{
+	height: 60px;
+	width: 20px;
+	background: white;
+	top: 30px;
+	left: 10px;
+	border: solid 1px black;
+	border-top: none;
+	border-left: none;
+}
+.container:hover .h30w20_red{
+	height: 30px;
+    width: 20px;
+    background: red;
+    top: 90px;
+    left: 10px;
+    border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+.container:hover .h90w10_black{
+	height: 90px;
+	width: 10px;
+	background: black;
+    top: 30px;
+    left: 30px;
+    border-right: solid 1px black;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+.container:hover .w80h20_white{
+	width: 80px;
+	height: 15px;
+	top: 0;
+	left: 75px;
+	background: white;
+	border: solid 1px black;
+	border-left: none;
+}
+.container:hover .h15w25_white{
+	height: 15px;
+	width: 25px;
+	background: white;
+	border: solid 1px black;
+	border-left: none;
+	border-top: none;
+	top: 15px;
+	left: 75px;
+}
+.container:hover .h40w25_white{
+	height: 40px;
+	width: 25px;
+	background: white;
+	border: solid 1px black;
+	border-left: none;
+	border-top: none;
+	top: 30px;
+	left: 40px;
+}
+.container:hover .h20w10_yellow{
+	height: 20px;
+	width: 10px;
+	background: yellow;
+	border: solid 1px black;
+	border-left: none;
+	border-top: none;
+	top: 70px;
+	left: 40px;
+}
+.container:hover .h40w10_yellow{
+	height: 40px;
+	width: 10px;
+	background: yellow;
+	border: solid 1px black;
+	border-left: none;
+	border-top: none;
+	top: 90px;
+	left: 40px;
+}
+.container:hover .h40w10_white{
+	height: 40px;
+	width: 10px;
+	background: white;
+	border: solid 1px black;
+	border-left: none;
+	border-top: none;
+	top: 30px;
+	left: 65px;
+}
+.container:hover .h20w20_red{
+	height: 20px;
+	width: 20px;
+	background: red;
+	border: solid 1px black;
+	border-left: none;
+	border-top: none;
+	top: 30px;
+	left: 65px;
+}
+.container:hover .w55h15_blue{
+	width: 55px;
+    height: 15px;
+    background: blue;
+    border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 15px;
+    left: 100px;
+}
+.container:hover .h40w25_yellow {
+    height: 40px;
+    width: 25px;
+    background: yellow;
+    border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 30px;
+    left: 75px;
+}
+.container:hover .h40w45_red{
+	height: 40px;
+	width: 45px;
+	background: red;
+	border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 30px;
+    left: 100px;
+}
+.container:hover .h40w10_red{
+	height: 40px;
+	width: 10px;
+	background: red;
+	border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 30px;
+    left: 145px;
+}
+.container:hover .h70w10_white{
+	height: 70px;
+	width: 10px;
+	background: white;
+	border: solid 1px black;
+    border-left: none;
+    top: 0px;
+    left: 155px;
+}
+.container:hover .h70w10_yellow{
+	height: 70px;
+	width: 10px;
+	background: yellow;
+	border: solid 1px black;
+    border-left: none;
+    top: 0px;
+    left: 165px;
+}
+.container:hover .h20w20_black{
+	height: 20px;
+	width: 20px;
+	background: black;
+	border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 70px;
+    left: 155px;
+}
+ .container:hover .h20w25_red{
+	height: 20px;
+	width: 25px;
+	background: red;
+	border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 70px;
+    left: 50px;
+}
+.container:hover .h20w25_blue{
+	height: 20px;
+    width: 25px;
+    background: blue;
+    border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 70px;
+    left: 75px;
+}
+.container:hover .h20w45_white{
+    height: 20px;
+    width: 45px;
+    background: white;
+    border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 70px;
+    left: 100px;
+}
+.container:hover .h20w10_white {
+    height: 20px;
+    width: 10px;
+    background: white;
+    border: solid 1px black;
+    border-left: none;
+    border-top: none;
+    top: 70px;
+    left: 145px;
+}
+.container:hover .h25w40_white{
+	height: 25px;
+    width: 40px;
+    background: white;
+    border-right: solid 1px black;
+    top: 90px;
+    left: 50px;
+}
+.container:hover .h15w25_red{
+	height: 15px;
+	width: 25px;
+	background: red;
+	border: solid 1px black;
+    border-left: none;
+    top: 115px;
+    left: 50px;
+}
+.container:hover .h15w55_black{
+	height: 15px;
+	width: 55px;
+	background: black;
+	border: solid 1px black;
+    border-left: none;
+    top: 115px;
+    left: 75px;
+}
+.container:hover .h15w45_white{
+	height: 15px;
+	width: 45px;
+	background: white;
+	border: solid 1px black;
+    border-left: none;
+    top: 115px;
+    left: 130px;
+}
+.container:hover .h25w20_white{
+	height: 25px;
+	width: 20px;
+	background: white;
+	border-right: solid 1px black;
+    top: 90px;
+    left: 155px;
+}
+.container:hover .h25w35_white{
+	height: 25px;
+	width: 35px;
+	background: white;
+	border-right: solid 1px black;
+    top: 90px;
+    left: 90px;
+}.container:hover .h25w20_blue{
+	height: 25px;
+	width: 20px;
+	background: blue;
+	border-right: solid 1px black;
+	top: 90px;
+    left: 125px;
+}
+.container:hover .h25w10_yellow{
+    height: 25px;
+    width: 10px;
+    background: yellow;
+    border-right: solid 1px black;
+    border-top: none;
+    border-left: none;    
+    top: 90px;
+    left: 145px;
+}
